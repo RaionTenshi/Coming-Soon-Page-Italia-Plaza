@@ -1,0 +1,168 @@
+:root {
+	font-size: 16px;
+	--primary-color: #FFFFFF;
+	--secondary-color: red;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/backgroundImage.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: var(--primary-color);
+	text-align: center;
+	font-family: "Inria Serif", serif;
+}
+
+h1 {
+	font-size: 8rem;
+	line-height: 8rem;
+	letter-spacing: -0.01em;
+	max-width: 20ch;
+	margin: 0px auto;
+	margin-bottom: 32px;
+}
+h2 {
+	font-size: 6rem;
+	font-family: "Italianno", cursive;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: 72px;
+	margin-top: 32px;
+}
+div {
+	border: 1px solid var(--secondary-color);
+	border-radius: 50%;
+	width: 88px;
+	margin: 0 auto;
+}
+h3 {
+	padding: 4px;
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+h4 {
+	margin-top: 32px;
+	font-size: 2rem;
+	font-weight: 400;
+}
+p {
+	font-size: 1.5rem;
+	max-width: 58ch;
+	margin: 0px auto;
+	letter-spacing: 0.01em;
+	margin-bottom: 64px;
+}
+
+input{
+	border: none;
+	height: 64px;
+	font-size: 1.5rem;
+	font-family: "Inria Serif", serif;
+	font-weight: 400;
+}
+
+#email{
+	width: 50%;
+	max-width: 400px;
+	min-width: 200px;
+	border-radius: 5px 0 0 5px;
+	padding-left: 16px;
+	
+}
+#email[placeholder] {
+	color: rgba(0,0,0,0.8);
+}
+
+#submit{
+	width: 25%;
+	max-width: 200px;
+	min-width: 100px;
+	border-radius: 0 5px 5px 0;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+section{
+	margin-top: 80px;
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+		max-width: 20ch;
+		margin: 0px auto;
+		margin-bottom: 32px;
+	}
+	h2 {
+		font-size: 3rem;
+		text-align: left;
+		margin: 32px 32px 112px 32px;
+	}
+	div {
+		width: 56px;
+	}
+	h3 {
+		padding: 4px;
+		font-size: 2.5rem;
+	}
+	
+	h4 {
+		margin-top: 32px;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	p {
+		font-size: 1rem;
+		max-width: 30ch;
+		margin: 0px auto;
+		letter-spacing: 0.01em;
+		line-height: 1.25rem;
+		margin-bottom: 40px;
+	}
+	input{
+		height: 40px;
+		font-size: 1rem;
+	}
+	#email{
+		padding-left: 8px;
+		width: 30%;
+	}
+	#submit{
+		width: 15%;
+	}
+	section{
+		margin-top: 72px;
+	}
+	article {
+		margin: 10px;
+	}
+}
