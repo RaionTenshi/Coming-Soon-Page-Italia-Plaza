@@ -23,7 +23,7 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/backgroundImage.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url("images/backgroundImage.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -88,8 +88,13 @@ input{
 	min-width: 200px;
 	border-radius: 5px 0 0 5px;
 	padding-left: 16px;
-	
 }
+
+#email:focus {
+	border: none;
+	outline: none;
+}
+
 #email[placeholder] {
 	color: rgba(0,0,0,0.8);
 }
