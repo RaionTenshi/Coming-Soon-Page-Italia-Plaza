@@ -1,7 +1,7 @@
 :root {
 	font-size: 16px;
 	--primary-color: #FFFFFF;
-	--secondary-color: red;
+	--secondary-color: #D44D5C;
 }
 
 .italianno-regular {
@@ -23,7 +23,7 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/backgroundImage.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/backgroundImage.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
