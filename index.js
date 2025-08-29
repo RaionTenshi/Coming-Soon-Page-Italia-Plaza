@@ -1,5 +1,5 @@
 function defineTimeLeft () {
-	let endDate = new Date("2025-08-30T00:59:00Z");
+	let endDate = new Date("2025-09-30T00:59:00Z");
 	let currentDate = new Date();
 	let difference = (endDate > currentDate) ? endDate-currentDate : 0;
 	let days=0, hours=0, minutes=0, seconds=0;
