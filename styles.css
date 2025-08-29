@@ -4,18 +4,6 @@
 	--secondary-color: #D44D5C;
 }
 
-.italianno-regular {
-  font-family: "Italianno", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.inria-serif-light {
-  font-family: "Inria Serif", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
 *{
 	padding: 0px;
 	margin: 0px;
@@ -23,7 +11,7 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url("images/backgroundImage.jpg");
+	background-image: linear-gradient(rgba(0,0,0,1) 5%, rgba(0,0,0,0.8)), url("images/backgroundImage.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -35,6 +23,7 @@ body {
 
 h1 {
 	font-size: 8rem;
+	font-weight: 700;
 	line-height: 8rem;
 	letter-spacing: -0.01em;
 	max-width: 20ch;
@@ -68,7 +57,7 @@ h4 {
 }
 p {
 	font-size: 1.5rem;
-	max-width: 58ch;
+	max-width: 56ch;
 	margin: 0px auto;
 	letter-spacing: 0.01em;
 	margin-bottom: 64px;
